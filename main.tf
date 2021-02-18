@@ -7,8 +7,9 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "nooneknows198"
+    bucket = "newterraformlock"
     key    = "devopsb15.tfstate"
+    dynamodb_table="terraform-state-lock-dynamo"
     region = "us-east-1"
   }
 }
