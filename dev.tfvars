@@ -1,5 +1,5 @@
-aws_access_key = "xxxxxxxx"
-aws_secret_key = "yyyyyyyy"
+aws_access_key = "11111"
+aws_secret_key = "11111"
 aws_region = "us-east-1"
 vpc_cidr = "172.16.0.0/16"
 public_subnet1_cidr = "172.16.1.0/24"
